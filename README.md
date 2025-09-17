@@ -1,4 +1,4 @@
-# File-Permissions-in-Linux
+# File Permissions in Linux
 
 The purpose of the File Permissions in Linux project was to audit and modify file permissions within a project directory to ensure proper security controls. This hands-on exercise helped me understand Linux file permission systems and apply the principle of least privilege to secure organizational data.
 
