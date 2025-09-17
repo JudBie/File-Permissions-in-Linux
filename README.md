@@ -19,7 +19,7 @@ The purpose of the File Permissions in Linux project was to audit and modify fil
 - Distinguished between regular files and directories in the output
 
 ## Ref 2: Permission String Analysis
-<img width="975" height="871" alt="Screenshot 2025-09-17 at 12 50 38 PM" src="https://github.com/user-attachments/assets/6e22c848-a914-4619-85e2-08c0b3257572" />
+<img width="1111" height="869" alt="Screenshot 2025-09-17 at 1 07 22 PM" src="https://github.com/user-attachments/assets/2b1e7888-6fa1-4dbb-bff0-41b62047fba7" />
 
 - Analyzed the 10-character permission system structure
 - Understood file type indicators (d for directory, - for file)
