@@ -57,3 +57,22 @@ The purpose of the File Permissions in Linux project was to audit and modify fil
 - Secured organizational data by removing unnecessary permissions
 - Demonstrated proficiency in Linux command line security management
 - Created a more secure file system environment for the research team
+
+## Key Takeaways
+
+- **Linux file permissions follow a structured system** with three user types (user, group, other) and three permission types (read, write, execute)
+- **The 10-character permission string** provides a clear visual representation of who has access to files and directories
+- **The `chmod` command** is essential for modifying file permissions to align with security policies
+- **Hidden files** (starting with ".") require the `-a` flag with `ls` to be visible and also need proper permission management
+- **The principle of least privilege** is critical - users should only have the minimum permissions necessary to perform their job functions
+- **Directory permissions work differently** than file permissions - execute permission on directories grants access to files within them
+- **The `-` and `+` operators** in chmod allow for precise permission changes without rewriting all permissions
+
+
+## Summary
+
+This project demonstrated my ability to manage Linux file permissions to enhance organizational security. I successfully audited the project directory using `ls -la` to reveal all files (including hidden files) and their permission settings. After identifying several security risks where users had unnecessary permissions, I used the `chmod` command to implement the principle of least privilege.
+
+Specific actions included: removing write permissions from "other" users on project_k.txt, modifying the hidden file .project_x.txt to ensure only the user and group could read it, and restricting execute permissions on the drafts directory to only the file owner (researcher2). Through systematic permission management, I strengthened the security posture of the research team's file system by ensuring that users, groups, and other users only had access to the resources they legitimately needed.
+
+This work showcased practical Linux command-line skills, understanding of access control principles, and the ability to implement security policies through technical controls.
