@@ -15,7 +15,6 @@ The purpose of the File Permissions in Linux project was to audit and modify fil
 
 - Used `ls -la` command to check file permissions including hidden files
 - Identified one directory named "drafts" and one hidden file ".projects_x.txt"
-- Analyzed the 10-character permission strings for all files and directories
 - Distinguished between regular files and directories in the output
 
 ## Ref 2: Permission String Analysis
